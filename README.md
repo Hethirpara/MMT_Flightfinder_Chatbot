@@ -67,3 +67,10 @@ The flight booking chatbot uses the Rasa framework to understand user inputs and
 You can improve the bot's performance using interactive learning:
 ```bash
 python -m rasa_core.train --online -d config/domain.yml -s data/stories.md -o models/dialogue -u models/nlu/default/chatter --epochs 250 --endpoints endpoints.yml
+
+## Licence
+You can replace the placeholders such as `https://github.com/yourusername/flight-booking-chatbot.git` with your actual repository URL.
+
+
+
+
